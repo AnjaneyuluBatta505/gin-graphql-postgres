@@ -296,7 +296,7 @@ func (ec *executionContext) field_Mutation_createChoice_args(ctx context.Context
 	args := map[string]interface{}{}
 	var arg0 *model.ChoiceInput
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalOChoiceInput2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoiceInput(ctx, tmp)
+		arg0, err = ec.unmarshalOChoiceInput2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoiceInput(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -310,7 +310,7 @@ func (ec *executionContext) field_Mutation_createQuestion_args(ctx context.Conte
 	args := map[string]interface{}{}
 	var arg0 model.QuestionInput
 	if tmp, ok := rawArgs["input"]; ok {
-		arg0, err = ec.unmarshalNQuestionInput2githubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestionInput(ctx, tmp)
+		arg0, err = ec.unmarshalNQuestionInput2githubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestionInput(ctx, tmp)
 		if err != nil {
 			return nil, err
 		}
@@ -434,7 +434,7 @@ func (ec *executionContext) _Choice_question(ctx context.Context, field graphql.
 	}
 	res := resTmp.(*model.Question)
 	fc.Result = res
-	return ec.marshalNQuestion2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestion(ctx, field.Selections, res)
+	return ec.marshalNQuestion2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestion(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Choice_question_id(ctx context.Context, field graphql.CollectedField, obj *model.Choice) (ret graphql.Marshaler) {
@@ -543,7 +543,7 @@ func (ec *executionContext) _Mutation_createQuestion(ctx context.Context, field 
 	}
 	res := resTmp.(*model.Question)
 	fc.Result = res
-	return ec.marshalNQuestion2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestion(ctx, field.Selections, res)
+	return ec.marshalNQuestion2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestion(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Mutation_createChoice(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -584,7 +584,7 @@ func (ec *executionContext) _Mutation_createChoice(ctx context.Context, field gr
 	}
 	res := resTmp.(*model.Choice)
 	fc.Result = res
-	return ec.marshalNChoice2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx, field.Selections, res)
+	return ec.marshalNChoice2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_questions(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -618,7 +618,7 @@ func (ec *executionContext) _Query_questions(ctx context.Context, field graphql.
 	}
 	res := resTmp.([]*model.Question)
 	fc.Result = res
-	return ec.marshalNQuestion2ᚕᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestion(ctx, field.Selections, res)
+	return ec.marshalNQuestion2ᚕᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestion(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query_choices(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -652,7 +652,7 @@ func (ec *executionContext) _Query_choices(ctx context.Context, field graphql.Co
 	}
 	res := resTmp.([]*model.Choice)
 	fc.Result = res
-	return ec.marshalNChoice2ᚕᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx, field.Selections, res)
+	return ec.marshalNChoice2ᚕᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) _Query___type(ctx context.Context, field graphql.CollectedField) (ret graphql.Marshaler) {
@@ -854,7 +854,7 @@ func (ec *executionContext) _Question_choices(ctx context.Context, field graphql
 	}
 	res := resTmp.([]*model.Choice)
 	fc.Result = res
-	return ec.marshalOChoice2ᚕᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx, field.Selections, res)
+	return ec.marshalOChoice2ᚕᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx, field.Selections, res)
 }
 
 func (ec *executionContext) ___Directive_name(ctx context.Context, field graphql.CollectedField, obj *introspection.Directive) (ret graphql.Marshaler) {
@@ -2402,11 +2402,11 @@ func (ec *executionContext) marshalNBoolean2bool(ctx context.Context, sel ast.Se
 	return res
 }
 
-func (ec *executionContext) marshalNChoice2githubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v model.Choice) graphql.Marshaler {
+func (ec *executionContext) marshalNChoice2githubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v model.Choice) graphql.Marshaler {
 	return ec._Choice(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNChoice2ᚕᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v []*model.Choice) graphql.Marshaler {
+func (ec *executionContext) marshalNChoice2ᚕᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v []*model.Choice) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -2430,7 +2430,7 @@ func (ec *executionContext) marshalNChoice2ᚕᚖgithubᚗcomᚋanjaneyulubatta�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOChoice2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx, sel, v[i])
+			ret[i] = ec.marshalOChoice2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -2443,7 +2443,7 @@ func (ec *executionContext) marshalNChoice2ᚕᚖgithubᚗcomᚋanjaneyulubatta�
 	return ret
 }
 
-func (ec *executionContext) marshalNChoice2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v *model.Choice) graphql.Marshaler {
+func (ec *executionContext) marshalNChoice2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v *model.Choice) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -2453,11 +2453,11 @@ func (ec *executionContext) marshalNChoice2ᚖgithubᚗcomᚋanjaneyulubattaᚋg
 	return ec._Choice(ctx, sel, v)
 }
 
-func (ec *executionContext) marshalNQuestion2githubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v model.Question) graphql.Marshaler {
+func (ec *executionContext) marshalNQuestion2githubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v model.Question) graphql.Marshaler {
 	return ec._Question(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalNQuestion2ᚕᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v []*model.Question) graphql.Marshaler {
+func (ec *executionContext) marshalNQuestion2ᚕᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v []*model.Question) graphql.Marshaler {
 	ret := make(graphql.Array, len(v))
 	var wg sync.WaitGroup
 	isLen1 := len(v) == 1
@@ -2481,7 +2481,7 @@ func (ec *executionContext) marshalNQuestion2ᚕᚖgithubᚗcomᚋanjaneyulubatt
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOQuestion2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestion(ctx, sel, v[i])
+			ret[i] = ec.marshalOQuestion2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestion(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -2494,7 +2494,7 @@ func (ec *executionContext) marshalNQuestion2ᚕᚖgithubᚗcomᚋanjaneyulubatt
 	return ret
 }
 
-func (ec *executionContext) marshalNQuestion2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v *model.Question) graphql.Marshaler {
+func (ec *executionContext) marshalNQuestion2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v *model.Question) graphql.Marshaler {
 	if v == nil {
 		if !graphql.HasFieldError(ctx, graphql.GetFieldContext(ctx)) {
 			ec.Errorf(ctx, "must not be null")
@@ -2504,7 +2504,7 @@ func (ec *executionContext) marshalNQuestion2ᚖgithubᚗcomᚋanjaneyulubatta�
 	return ec._Question(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalNQuestionInput2githubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestionInput(ctx context.Context, v interface{}) (model.QuestionInput, error) {
+func (ec *executionContext) unmarshalNQuestionInput2githubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestionInput(ctx context.Context, v interface{}) (model.QuestionInput, error) {
 	return ec.unmarshalInputQuestionInput(ctx, v)
 }
 
@@ -2771,11 +2771,11 @@ func (ec *executionContext) marshalOBoolean2ᚖbool(ctx context.Context, sel ast
 	return ec.marshalOBoolean2bool(ctx, sel, *v)
 }
 
-func (ec *executionContext) marshalOChoice2githubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v model.Choice) graphql.Marshaler {
+func (ec *executionContext) marshalOChoice2githubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v model.Choice) graphql.Marshaler {
 	return ec._Choice(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOChoice2ᚕᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v []*model.Choice) graphql.Marshaler {
+func (ec *executionContext) marshalOChoice2ᚕᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v []*model.Choice) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
@@ -2802,7 +2802,7 @@ func (ec *executionContext) marshalOChoice2ᚕᚖgithubᚗcomᚋanjaneyulubatta�
 			if !isLen1 {
 				defer wg.Done()
 			}
-			ret[i] = ec.marshalOChoice2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx, sel, v[i])
+			ret[i] = ec.marshalOChoice2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx, sel, v[i])
 		}
 		if isLen1 {
 			f(i)
@@ -2815,30 +2815,30 @@ func (ec *executionContext) marshalOChoice2ᚕᚖgithubᚗcomᚋanjaneyulubatta�
 	return ret
 }
 
-func (ec *executionContext) marshalOChoice2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v *model.Choice) graphql.Marshaler {
+func (ec *executionContext) marshalOChoice2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoice(ctx context.Context, sel ast.SelectionSet, v *model.Choice) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
 	return ec._Choice(ctx, sel, v)
 }
 
-func (ec *executionContext) unmarshalOChoiceInput2githubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoiceInput(ctx context.Context, v interface{}) (model.ChoiceInput, error) {
+func (ec *executionContext) unmarshalOChoiceInput2githubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoiceInput(ctx context.Context, v interface{}) (model.ChoiceInput, error) {
 	return ec.unmarshalInputChoiceInput(ctx, v)
 }
 
-func (ec *executionContext) unmarshalOChoiceInput2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoiceInput(ctx context.Context, v interface{}) (*model.ChoiceInput, error) {
+func (ec *executionContext) unmarshalOChoiceInput2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoiceInput(ctx context.Context, v interface{}) (*model.ChoiceInput, error) {
 	if v == nil {
 		return nil, nil
 	}
-	res, err := ec.unmarshalOChoiceInput2githubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐChoiceInput(ctx, v)
+	res, err := ec.unmarshalOChoiceInput2githubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐChoiceInput(ctx, v)
 	return &res, err
 }
 
-func (ec *executionContext) marshalOQuestion2githubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v model.Question) graphql.Marshaler {
+func (ec *executionContext) marshalOQuestion2githubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v model.Question) graphql.Marshaler {
 	return ec._Question(ctx, sel, &v)
 }
 
-func (ec *executionContext) marshalOQuestion2ᚖgithubᚗcomᚋanjaneyulubattaᚋgqlgenᚑtodosᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v *model.Question) graphql.Marshaler {
+func (ec *executionContext) marshalOQuestion2ᚖgithubᚗcomᚋAnjaneyuluBatta505ᚋginᚑgraphqlᚑpostgresᚋgraphᚋmodelᚐQuestion(ctx context.Context, sel ast.SelectionSet, v *model.Question) graphql.Marshaler {
 	if v == nil {
 		return graphql.Null
 	}
